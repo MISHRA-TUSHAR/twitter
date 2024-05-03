@@ -1,8 +1,6 @@
 package config
 
-import (
-	"github.com/MISHRA-TUSHAR/twitter/backend/models"
-)
+import "github.com/MISHRA-TUSHAR/twitter/tree/main/backend/models"
 
 func SyncDatabase() {
 	DB.AutoMigrate(&models.User{})
