@@ -6,8 +6,6 @@ part 'messages_state.dart';
 
 class MessagesBloc extends Bloc<MessagesEvent, MessagesState> {
   MessagesBloc() : super(MessagesInitial()) {
-    on<MessagesEvent>((event, emit) {
-      // TODO: implement event handler
-    });
+    on<MessagesEvent>((event, emit) {});
   }
 }
